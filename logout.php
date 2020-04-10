@@ -1,0 +1,11 @@
+<?php
+session_start();
+session_unset();
+session_destroy();
+session_write_close();
+setcookie(session_name(),'',0,'/');
+session_regenerate_id(true);
+unset($_COOKIE['form-username']);
+unset($_COOKIE['form-password']);
+header("Location:index.php");
+?>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Metoda 1-->
+<root>
+<link1>
+
+<link_url>http://www.hermes.com</link_url>
+
+</link1>
+
+
+<!--Metoda 2 -->
+
+<link2>
+<address>http://www.mail.ru</address>
+<target>_blank</target>
+<link_text>E-mail: lizad149@mail.ru</link_text>
+</link2>
+
+</root>

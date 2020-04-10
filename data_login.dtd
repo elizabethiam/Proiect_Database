@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT root (date)*>
+
+<!ELEMENT date (username|password)*>
+
+<!ELEMENT username (#PCDATA)>
+
+<!ELEMENT password (#PCDATA)>
